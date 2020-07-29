@@ -21,3 +21,13 @@ input{
    color: green;
    text-transform: uppercase;
  }
+
+  @media all and (max-width: 560px){
+
+    main{
+      margin-left: 50px;
+      margin-top: 200px;
+    }
+
+
+  }
