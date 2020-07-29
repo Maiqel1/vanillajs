@@ -16,6 +16,9 @@ function colorGenerator() {
         display.style.backgroundColor = "";
         warningDisplay.style.color = `red`;
         warningDisplay.textContent = `Enter a number between 0 and 255`
+    }else if (!userInput.value) {
+      warningDisplay.style.color = `blue`;
+      warningDisplay.textContent = `You Did Not Enter a Valid Number`
     } else{
         display.style.backgroundColor = `rgb(${numStorage[0]}, ${numStorage[1]}, ${numStorage[2]})`;
         warningDisplay.textContent = '';
